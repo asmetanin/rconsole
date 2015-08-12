@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xml:lang="en" lang="en">
+  <head>
+    <title>Ruby Console</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <style type="text/css">
+      body {
+        margin: 0px;
+      }
+    </style>
+    <script src="jquery-1.11.3.min.js"></script>
+    <script type="text/javascript"><!--
+      if (typeof navigator.appName == 'undefined' ||
+          navigator.appName != 'Netscape') {
+        document.write('<style type="text/css">' +
+                       '#vt100 #console div, #vt100 #alt_console div {' +
+                       '  overflow: hidden;' +
+                       '}' +
+                       '</style>');
+      }
+
+      suppressAllAudio = true;
+      linkifyURLs      = 1;
+      userCSSList      = [ [ 'White on Black', true, false ],
+                           [ 'Black on White', false, true ],
+                           [ 'Monochrome', true, false ],
+                           [ 'Color Terminal', false, true ] ];
+    --></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="vt100.js"></script>
+    <script type="text/javascript" src="demo.js"></script>
+  </head>
+
+  <body onload="setTimeout('new Demo()', 100)"
+        scroll="no"><noscript>JavaScript
+    must be enabled</noscript></body>
+</html>
+
